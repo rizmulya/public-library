@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Uthmanic"; /* Nama yang akan Anda gunakan untuk merujuk ke font */
+    src: url('http://localhost/library/public/font/Uthmanic.otf') format('opentype'); /* Ganti path sesuai dengan lokasi file font di proyek Anda */
+}
+
+@media (min-width: 1024px) {
+    .lg\:mx-8 {
+        margin-left: 2rem; /* 32px */
+        margin-right: 2rem; /* 32px */
+    }
+  }
